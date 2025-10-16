@@ -2,7 +2,8 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
-import produitsRoutes from "./routes/produits.js"; // ← note le .js à la fin (obligatoire en ES module)
+import produitsRoutes from "./routes/produits.js";
+ // ← note le .js à la fin (obligatoire en ES module)
 
 dotenv.config();
 
